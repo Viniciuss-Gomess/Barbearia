@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+position: static; = posição natural do elemento
+position: relative; = posição relativa da posição inicial
+position: absolute; = Com o position: absolute, 
+   eu consigo posicionar meu elemento em qualquer lugar da página.
+
+
+
+header e main sao tags semânticas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*propriedade style=, que é o estilo do eletemento */
+/*dentro do style e entre aspas vou inserir oque vou alterar*/
+/* font-size: 20px  altera o tamanho da fonte. o tamanho fonte do navegador é de 16px*/
+/* text-align: center */
+/* link faz a ligação
+ rel é o relacionamento com o link
+ e por fim o valor "stylesheet" e dizer onde ele está "href" que é o endereço de referencia
+ "style.css
+
+
+ <!-- 
+ a propiedade height ajusta a altura
+ a propiedade width ajusta a largura
+ a propriedade padding ajusta o espaçamento interno
+ a propriedade margin ajusta o espaçamento extreno 
+-->
+<!-- id itens unicos
+     class para mais de um item
+
+     tag ocupar a largura inteira da página é chamado 
+     inline e block ele bloqueia uma largura, 
+     mas essa largura é fixa. Sou eu que dou o tamanho. 
+     E ele me deixa também mexer na largura e nos espaçamentos interno e externo.
+
+     #id
+     .class
+     name tag
+
+     color = cor da letra
+     background = cor da pagina 
+
+     weight = largura 
+
+    font-size = tamanho da fonte
+    font-style = estilo da fonte
+    font-weith: bold = intensidade da fonte
+
+    text-align = alinha o texto
+    text-transform: uppercase = texto em letra maiuscula
+    text-decoration: none Remove a barra de baixo do link
+
+    padding = espaço interno
+    

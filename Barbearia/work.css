@@ -1,0 +1,11 @@
+img{
+    width: 100%;
+   /* margin: 0 0 20px;*/
+    padding: 0 0 20px;
+}
+
+h1{
+    background: blue;
+    text-align: center;
+    padding: 20px;
+}

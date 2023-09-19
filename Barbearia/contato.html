@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Contato</title>
+        <link rel="stylesheet" href="resett.css">
+        <link rel="stylesheet" href="contato.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa">
+                <h1> <img src="imagens/logo.png"  alt="Logo da Barbearia Alura"> </h1> <!--alt = acebilidade para quem não consegue visualizar a-->
+                <nav>
+                    <ul>
+                        <li><a href="alura.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form> <!-- formulário HTML-->
+                <label for="nomesobrenome">Nome e Sobrenome</label> <!-- etiqueta para o input-->
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label id="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+
+                <label for="mensagem"> Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <fiedlset>
+                    <legend> Como prefere o nosso contato?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contato" valeu="email" id="radio-email">Email</label>
+ 
+                    <label for="radio-telefone"><input type="radio" name="contato" valeu="telefone" id="radio-telefone">Telefone</label>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+                </fiedlset>
+
+                <fiedlset>
+                    <legend>Qual horário deseja ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option> <!--opção do seletor-->
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fiedlset>
+                <label class="checkbox"><input type="checkbox" checked>Gostario de receber nossas novidades por email?</label>
+                
+                <input type="submit" value="Enviar Formulario" class="enviar">
+             </form>
+
+             <table>
+                <thead>
+                    <tr> <!--linha-->
+                        <th>Dia</th> <!-- semantica correta-->
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> <!--celulas-->
+                        <td>Segunda</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <!--<tr>
+                        <td colspan="5">Rio de Janeiro</td> 
+                    </tr>-->
+                </tbody>
+             </table>
+        </main>
+
+        <footer>
+            <img src="imagens/logo-branco.png" alt="Logo da Barbearia Alura">
+            <p class="copyright"> &copy; Copyright Barbearia Alura</p>
+        </footer> 
+    </body>
+</html>
+
+
+
+
+<!--Required = campo obrigatorio
+    placeholder = texto de exemplo
+    checked = deixa uma opção marcada-->
+
+
+<!--Type text = digita um texto
+    type radio = escolhe uma opção
+    type checkbox = marco ou desmarco algum item-->
+
+<!--textarea é uma tag de conteudo
+    select seleção de um item       -->
+
+<!--cols coluna rows linha-->

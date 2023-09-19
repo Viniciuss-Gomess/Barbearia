@@ -1,0 +1,22 @@
+/*
+    background: #AAEECC;
+    color: #FF00CC;
+    text-align: center;
+    text-transform: uppercase; /*transformando o texto em letra maiuscula
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 30%; /* AUMENTA O ESPAÇO DO LADO ESQUERDO
+    padding-right: 10%; /* AUMENTA ESPAÇO DO LADO DIREITO
+    padding: 20%; /* Aumenta o tamanho da fonte
+    display: inline-block; /* o texto ocupa só o espaço dele
+    vertical-align: top ;  /* colocou o texto em cima
+    display: inline;
+    margin: 0 0 0 15px; /*primeiro para o topo, depois para a direita, terceiro para baixo, por último para a esquerda
+    margin: /*cálculo da margin automático, Delegamos para 
+    o navegador fazer a conta de calcular a largura que resta, dividir por dois, e adicionar metade em cada um dos lados.*/
+
+   
+h1{
+    color:aqua
+}
